@@ -21,8 +21,8 @@ const server = http.createServer((req, res) => {
 });
 
 // La IP local de la computadora y el puerto que usaremos
-const hostname = '192.168.8.7'; // Cambia esto por tu IP local
-const port = 5500;
+const hostname = '0.0.0.0'; // Cambia esto por tu IP local
+const port = process.env.PORT;
 
 // El servidor comienza a escuchar en la IP local y el puerto especificado
 server.listen(port, hostname, () => {
