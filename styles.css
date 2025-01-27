@@ -1,0 +1,112 @@
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    /* background-color: rgb(194, 194, 194); */
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    border: 1px solid black;
+    max-width: 600px;
+    min-width: 100px;
+    width: 100%;
+    padding: 0;
+    border-color: gainsboro;
+    
+    
+    margin: 0 auto;
+}
+
+header {
+    padding: 15px;
+    /* background-color: darkblue; */
+}
+
+header h1 {
+    margin: 0;
+}
+header h2 {
+    margin: 0;
+    margin-top: 15px;
+    font-size: 1.1em;
+    padding: 0;
+
+}
+nav {
+    background-color: black;
+    color: white;
+
+    margin: 0;
+    display: flex;
+}
+nav div {
+    width: 60%;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width:40%;
+    /* background-color: red; */
+    list-style: none;
+    padding: 10px;
+    
+    margin: 0;
+    
+}
+nav ul li {
+    /* background-color: blue; */
+    font-weight: bold;
+    
+}
+main {
+    padding: 10px;
+}
+
+main h2 {
+    color: rgb(64, 64, 244);
+    /* background-color: white; */
+    margin: 0;
+    /* padding: 10px; */
+    font-weight: 100;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+.left {
+    width: 60%;
+    /* background-color: red; */
+    display: inline-block;
+}
+.right {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+
+    
+}
+main p {
+    display: flex;
+    margin: 0;
+}
+.p-gray {
+    background-color: rgb(211, 211, 211);
+    padding: 5px;
+}
+.p-nongray {
+    padding: 10px 5px 10px 5px;
+}
+.double-border {
+    border-bottom: 5px double black;
+    margin: 0;
+    padding: 0;
+}
+.selectable:hover {
+    background-color: rgba(94, 94, 255, 0.716);
+}
